@@ -538,13 +538,13 @@ function createnav(thisusertype, thisuserid) {
     var supportlink = $('a[href*="#support"]');
     supportlink.on('click', function(e) {
       e.preventDefault();
-      var supportmodal = '<div style="margin-bottom:20px;">If the support articles that pop up when you click ITK On the Go do not solve your issue, please feel free to contact us for help: <a href="mailto:help@knowingmore.com">help@knowingmore.com.</a></div>';
+      var supportmodal = '<div style="margin-bottom:20px;">If the support articles that pop up when you click ITK On the Go do not solve your issue, please feel free to contact us for help: <a href="mailto:help@homecarepulse.com">help@homecarepulse.com.</a></div>';
       $.fn.efront('modal', { 'header':'Support', 'body':supportmodal});  //Display a modal with this title and content
     });
   }
   
   function injectlearnermessage () {
-    var learnermessage = '<div class="learner-message">Support questions? Email help@knowingmore.com.<br />Question about the content? Email nurse@knowingmore.com to communicate with an RN.</div>';
+    var learnermessage = '<div class="learner-message">Support questions? Email help@homecarepulse.com.<br />Question about the content? Email nurse@homecarepulse.com to communicate with an RN.</div>';
     $('.navbar-new').after(learnermessage);
   }
   
