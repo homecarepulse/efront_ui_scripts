@@ -392,7 +392,7 @@ function createnav(thisusertype, thisuserid) {
         }
       }
     }
-    if (usertype == 'Training Manager' || usertype == 'Administrator') {
+    if (usertype == 'Training Manager' || usertype == 'Branch Administrator' || usertype == 'Administrator') {
       if (typeof show_itk_otg !== 'undefined') {
         // the variable is defined
         if (show_itk_otg == 'false') {
